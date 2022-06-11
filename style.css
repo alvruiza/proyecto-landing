@@ -1,0 +1,52 @@
+body {
+    color: black;
+    background-color: white;
+}
+
+.navbar .navbar-expand-lg .bg-light{
+    background-color: black;
+}
+
+.nav-link{
+    color: black;
+    background-color: white;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #E50695;
+}
+
+.nav-link:active {
+    color: black;
+}
+
+.brandlogo {
+    margin-left: 70%;
+}
+
+.jumbo {
+    background-image: url(https://i.postimg.cc/DwpVytZs/OFERTAS-1080-800-px-2048-500-px-2048-550-px.png);
+    line-height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+
+.form {
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20%;
+    margin-right: 1%;
+    margin-bottom: 80%;
+    width: 40%;
+}
+
+.formheader {
+    text-transform: uppercase; 
+    font-weight: 800;   
+}
