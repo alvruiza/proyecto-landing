@@ -56,8 +56,7 @@ a{
     background-repeat: no-repeat;
     background-size: 100%;
     padding-left: 35%;
-    height: 550px;
-    
+    height: 550px;    
 }
 
 .formh1 {
@@ -406,5 +405,153 @@ a{
 
 .copycol2 {
     padding-left: 15%;
+}
+
+@media screen and (max-width:768px){
+
+.brandlogo {
+        margin-left: 0%;
+    }
+
+.row1 {    
+    background-image: url(https://i.postimg.cc/L6s4n4ff/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-768-650-p.png);    
+    padding-left: 5%;   
+       
+}
+
+.formh1 {
+    text-shadow: 1px 1px 5px black;
+}
+
+.subheader{
+    text-shadow: 1px 1px 5px black;
+}
+
+.benefits {
+    height: 1000px;
+}
+
+.benefitscol {
+    height: 10px;
+}
+
+.iconbox {
+    height: 10px;
+}
+
+.products {
+    margin-top: 18%;
+    height: 800px;
+}
+
+.productscol {
+    width: 300px;    
+}
+
+.img-area1 {
+    margin-left: 15%;
+}
+
+.img-area2 {
+    margin-left: 15%;
+}
+
+.img-area3 {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.img-area4 {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+
+
+.fheadercol1{    
+    width: 350px;    
+    margin-top: 5%;
+    margin-right: 25%;        
+}
+
+.inputsuscriptor{
+    width: 320px;
+}
+
+.fheadercol2 {       
+    width: 180px;  
+    margin-top: 13%; 
+}
+
+.RS {
+    margin-right: 10%;
+    transform: scale(2); 
+    padding-left: 40%;    
+}
+
+.footer {
+    height: 400px;
+    padding-top: 10%;
+}
+
+.footercol {
+    width: 185px;    
+}
+
+.footericon {
+    padding-left: 0%;
+}
+
+.footermenu2 {
+    padding-left: 7%;
+}
+
+.copyright{
+    padding-left: 5%;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+.brandlogo {
+    transform: scale(0.75);
+    
+}
+
+.row1 {    
+    background-image: url(https://i.postimg.cc/Y0hNNMX0/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-768-650-p.png);
+    width: 360px;          
+}
+
+.header {
+    padding-right: 100%;
+    padding-top: 10%;    
+}
+ 
+.formh1 {
+    font-size: 20px;
+    width: 320px;
+    padding-right: 5%;    
+}
+
+.subheader {
+    font-size: 14px;
+}
+
+.nameform {
+    margin-right: 100%;
+    margin-left: 0%;
+    margin-top: 15%;
+    width: 300px;
+
+}
+
+.button {
+    width: 288px;
+}
+
+
+
 }
 
