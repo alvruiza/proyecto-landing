@@ -8,8 +8,12 @@ a{
     text-decoration: none;
 }
 
-.navbar .navbar-expand-lg .bg-light{
-    background-color: black;
+.barra {
+    background-color: white !important;
+}
+
+.navlist {
+    padding-right: 20%;
 }
 
 .nav-link{
@@ -166,7 +170,7 @@ a{
 .products {
     color: black;
     background-color: white;
-    height: 550px;
+     height: 550px;
       
 }
 
@@ -196,7 +200,7 @@ a{
 }
 
 .prodsubheading {
-    color: grey;
+     color: grey;
     text-align: center;
     font-size: 14px;
     font-weight: 500;    
@@ -308,7 +312,7 @@ a{
 }
 
 .inputsuscriptor {
-    width: 480px;
+        width: 480px;
 }
 
 .RSicons {
@@ -375,11 +379,11 @@ a{
 }
 
 .footermenu2 {
-   font-weight: 700;
-   font-size: 13px;
-   list-style: none;
-   line-height: 25px;
-   padding-left: 50%;    
+    font-weight: 700;
+    font-size: 13px;
+    list-style: none;
+    line-height: 25px;
+    padding-left: 50%;    
 }
 
 .footerlink:hover {
@@ -403,3 +407,4 @@ a{
 .copycol2 {
     padding-left: 15%;
 }
+
