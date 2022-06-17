@@ -596,14 +596,43 @@ a{
 }
 
 .footercol {
-    margin-top: 5%;
+    margin-top: 7%;
     margin-right: 40%;
-    margin-bottom: 0%;
-    border-style: solid;
+    padding-bottom: 0%;    
+}
+
+.footermenu {    
+    padding-left: 0%;
+}
+
+.footermenu2 {
+    padding-left: 0%;
+}
+
+.fheadercol2{
+    display:flex;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 35%;  
+    width: 120px;    
+}
+
+.RS {
+    display: flex;    
+    margin-bottom: 0%;    
 }
 
 .copyright {
-    
+    height: 90px;
+}
+
+.copycol1 {
+    padding-left: 5%;
+}
+
+.copycol2 {
+    padding-left: 5%;
+    margin-bottom: 5%;
 }
 
 }
