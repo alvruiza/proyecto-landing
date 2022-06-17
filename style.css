@@ -553,5 +553,57 @@ a{
 
 
 
+.benefitscol   {
+    height: 10px;
+    width: 100%;    
+    margin-top: 1%;   
 }
 
+.iconbox {
+    height: 100px;    
+    padding-right: 25%;     
+}
+
+.icon {
+    margin-left: 68%;      
+}
+
+.icon2 {
+    margin-left: 66%;
+}
+
+.icon3 {
+    margin-left: 66%;
+}
+
+.products {
+    height: 1300px;
+}
+
+.productscol {
+    margin-bottom: 8%;
+
+}
+
+.footheader {
+    padding-left: 17%;
+    
+}
+
+.footer {
+    height:700px;
+    padding-top: 15%;
+}
+
+.footercol {
+    margin-top: 5%;
+    margin-right: 40%;
+    margin-bottom: 0%;
+    border-style: solid;
+}
+
+.copyright {
+    
+}
+
+}
