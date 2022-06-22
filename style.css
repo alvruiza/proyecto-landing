@@ -515,124 +515,169 @@ a{
 @media screen and (max-width: 480px) {
 
 .brandlogo {
-    transform: scale(0.75);
-    
+    transform: scale(0.75);    
 }
 
 .row1 {    
-    background-image: url(https://i.postimg.cc/Y0hNNMX0/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-768-650-p.png);
-    width: 360px;          
+    background-image: url(https://i.postimg.cc/7Z0xGH7y/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-768-650-p.png);
+    background-size: 100%;   
+    padding-left: 0%;        
 }
 
-.header {
-    padding-right: 100%;
-    padding-top: 10%;    
-}
- 
 .formh1 {
-    font-size: 20px;
-    width: 320px;
-    padding-right: 5%;    
-}
+    font-size: 22px;
+    width: 100%;    
+    text-align: center;
+    margin-left: 0%;
+    padding-left: 0%;    
+}       
 
 .subheader {
     font-size: 14px;
+    width: 100%;    
+    margin-left: 0%;
+    text-align: center;
 }
 
 .nameform {
     margin-right: 100%;
     margin-left: 0%;
-    margin-top: 15%;
-    width: 300px;
-
+    margin-top: 7%;
+    width: 100%;    
 }
 
 .button {
-    width: 288px;
+    width: 96%;    
 }
 
+.headingbenefits {
+    margin-bottom: 8%;
+    margin-top: 8%;
+    margin-left: 0%;
+    margin-right: 0%;    
+    margin-top: 8%;
+    width: 95%;   
+}
 
+.subheadingbenefits {
+    margin-bottom: 2%;
+    padding-bottom: 0%;
+    margin-left: 0%; 
+    width: auto;   
+}
 
-.benefitscol   {
-    height: 10px;
-    width: 100%;    
-    margin-top: 1%;   
+.benefits { 
+    padding-bottom: 10%;
+    width: auto;
+    height: auto;
+    padding-bottom: 25%;       
+}
+
+.benefitscol   {         
+    margin-top: 8%;
+    margin-left: 0%;
+    margin-bottom: 8%;
+    height: 80%;
+    width: auto;       
 }
 
 .iconbox {
-    height: 100px;    
-    padding-right: 25%;     
+    width: auto;
+    height: 10%;    
+    padding-right: 0%;    
+    margin-right: 0%;
+    padding-top: 20%;     
 }
 
 .icon {
-    margin-left: 68%;      
+    margin-left: 48%;         
 }
 
 .icon2 {
-    margin-left: 66%;
+    margin-left: 48%;     
 }
 
 .icon3 {
-    margin-left: 66%;
+    margin-left: 48%;     
 }
 
 .products {
-    height: 1300px;
+    height: 1300px;  
+    margin-top: 0%;
+    padding-top: 8%;
+    width: auto;
 }
 
 .productscol {
-    margin-bottom: 8%;
-
+    margin-bottom: 8%;    
 }
 
 .footheader {
-    padding-left: 17%;
-    
+    padding-left: 17%;  
+}
+
+.inputsuscriptor {
+    width: auto;
 }
 
 .footer {
-    height:700px;
-    padding-top: 15%;
+    height:auto; 
+    width: auto;   
+    padding-top: 15%;    
 }
 
 .footercol {
     margin-top: 7%;
     margin-right: 40%;
-    padding-bottom: 0%;    
+    padding-bottom: 0%; 
+    height: auto;  
 }
 
 .footermenu {    
     padding-left: 0%;
+    width: auto;
+    height: auto;
 }
 
 .footermenu2 {
     padding-left: 0%;
+    width: auto;
+    height: auto;
+}
+
+.fheadercol1 {
+    height: auto;
+    width: auto;
 }
 
 .fheadercol2{
     display:flex;
     position: absolute;
-    margin-left: 55%;
+    margin-left: 20%;
+    transform: scale(1.2);
     margin-top: 35%;  
-    width: 120px;    
+    width: auto;       
 }
 
 .RS {
     display: flex;    
     margin-bottom: 0%;    
+    margin-top: 55%;
+    margin-left: 10%;  
 }
 
 .copyright {
-    height: 90px;
+    height: auto;
+    width: auto;    
 }
 
 .copycol1 {
-    padding-left: 5%;
+    padding-left: 5%;    
 }
 
 .copycol2 {
     padding-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 5%;    
 }
 
 }
