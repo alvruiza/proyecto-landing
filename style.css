@@ -54,7 +54,7 @@ a{
 }
 
 .row1 {    
-    background-image: url(https://i.postimg.cc/Vsxc7RDB/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-2048-850.png);
+    background-image: url(https://i.postimg.cc/wBqt1HNv/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-2048-850.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding-left: 40%;
@@ -494,31 +494,42 @@ a{
 
 .benefits {
     height: auto;
-    width: auto;
+    width: 100%;
     padding-bottom: 12%;
     padding-top: 6%;    
 }
 
 .benefitscol {
     height: auto;
+    width: 30%;
     margin-bottom: 8%;           
 }
 
 .iconbox {
-    height: auto;    
-    margin-top: 20%;
+    height: 100%;    
+    margin-top: 25%;
+}
+
+.icon {
+    transform: scale(4);
+}
+
+.icon2 {
+    transform: scale(4);
+}
+
+.icon3 {
+    transform: scale(4);
 }
 
 .products {
-    margin-top: 6%;
-    height: auto;
-    width: auto;
+    margin-top: 6%;    
+    width: 90%;
     margin-bottom: 8%;
 }
 
 .productscol {
-    width: auto;
-    height: auto;    
+    width: 25%;      
 }
 
 .img-area1 {
@@ -547,7 +558,7 @@ a{
 .fheadercol1{    
     width: 60%;    
     margin-top: 5%;
-    margin-right: 30%;
+    margin-right: 32%;
 }
 
 .inputsuscriptor{
@@ -557,7 +568,9 @@ a{
 .fheadercol2 {       
     width: 100%;       
     margin-left: 0%;
-    padding-right: 82%;
+    padding-right: 70%;
+    margin-top: 0%;
+    margin-bottom: 2%;
 }
 
 .RS {
@@ -579,10 +592,11 @@ a{
 }
 
 .footercol {
-    width: 80%;
+    width: 50%;
     height: auto;   
     margin-top: 4%;
-    margin-right: 12%;  
+    margin-right: 42%;
+    margin-left: 0%;  
 }
 
 .footericon {
@@ -603,7 +617,9 @@ a{
 }
 
 .copycol1 {
-    padding-left: 3%;
+    padding-left: 1%;
+    width: 50%;
+    margin-left: 0%;
 }
 
 .copycol2 {
@@ -612,7 +628,7 @@ a{
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 591px) {
 
 .brandlogo {
     transform: scale(0.75);
