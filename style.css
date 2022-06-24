@@ -499,27 +499,44 @@ a{
     padding-top: 6%;    
 }
 
+.headingbenefits {
+    font-size: 45px;
+    padding-top: 1%;
+}
+
+.subheadingbenefits {
+    font-size: 20px;
+}
+
 .benefitscol {
     height: auto;
-    width: 30%;
+    width: 100%;
     margin-bottom: 8%;           
+}
+
+.h6benefits {
+    font-size: 20px;
 }
 
 .iconbox {
     height: 100%;    
-    margin-top: 25%;
+    margin-top: 15%;
+}
+
+.h4benefits {
+    font-size: 35px;
 }
 
 .icon {
-    transform: scale(4);
+    transform: scale(8);
 }
 
 .icon2 {
-    transform: scale(4);
+    transform: scale(8);
 }
 
 .icon3 {
-    transform: scale(4);
+    transform: scale(8);
 }
 
 .products {
@@ -528,8 +545,16 @@ a{
     margin-bottom: 8%;
 }
 
+.headingproducts {
+    font-size: 45px;
+}
+
+.subheadingprod {
+    font-size: 20px;
+}
+
 .productscol {
-    width: 25%;      
+    width: 50%;      
 }
 
 .img-area1 {
@@ -548,6 +573,18 @@ a{
 .img-area4 {
     margin-left: 0%;
     margin-top: 0%;
+}
+
+.prodheading {
+    font-size: 20px;
+}
+
+.prodsubheading {
+    font-size: 18px;
+}
+
+.price {
+    font-size: 20px;
 }
 
 .footheader {
@@ -631,45 +668,35 @@ a{
 @media screen and (max-width: 591px) {
 
 .brandlogo {
-    transform: scale(0.75);
-    border-style: solid;
-    border-color: blue;    
+    transform: scale(0.9);
+      
 }
 
 .row1 {    
     background-image: url(https://i.postimg.cc/7Z0xGH7y/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-768-650-p.png);
     background-size: 100%;   
-    padding-left: 0%; 
-    border-style: solid;
-    border-color: blue;          
+    padding-left: 0%;      
 }
 
 .formh1 {
-    font-size: 22px;
+    font-size: 28px;
     width: 100%;    
     text-align: center;
-    margin-left: 0%;
-    padding-left: 0%;
-    border-style: solid;
-    border-color: blue;       
+    margin-top: 5%;          
 }       
 
 .subheader {
-    font-size: 14px;
+    font-size: 18px;
     width: 100%;    
     margin-left: 0%;
-    text-align: center;
-    border-style: solid;
-    border-color: blue;   
+    text-align: center;    
 }
 
 .nameform {
     margin-right: 100%;
     margin-left: 0%;
     margin-top: 7%;
-    width: 100%; 
-    border-style: solid;
-    border-color: blue;      
+    width: 100%;         
 }
 
 .button {
@@ -707,6 +734,24 @@ a{
     width: auto;       
 }
 
+.headingbenefits {
+    font-size: 28px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.subheadingbenefits {
+    font-size: 20px;
+}
+
+.h4benefits {
+    font-size: 25px;
+}
+
+.h6benefits {
+    font-size: 18px;
+}
+
 .iconbox {
     width: auto;
     height: 10%;    
@@ -716,30 +761,56 @@ a{
 }
 
 .icon {
-    margin-left: 48%;         
+    margin-left: 48%;
+    transform: scale(6);    
+         
 }
 
 .icon2 {
-    margin-left: 48%;     
+    margin-left: 48%;
+    transform: scale(6);        
 }
 
 .icon3 {
-    margin-left: 48%;     
+    margin-left: 48%; 
+    transform: scale(6);       
 }
 
 .products {
-    height: 1300px;  
+    height: 100%;  
     margin-top: 0%;
     padding-top: 8%;
     width: auto;
 }
 
+.headingproducts {
+    font-size: 28px;
+}
+
+.subheadingprod {
+    font-size: 18px;
+}
+
+.prodheading {
+    font-size: 16px;
+}
+
+.prodsubheading {
+    font-size: 14px;
+}
+
+.price {
+    font-size: 16px;
+}
+
 .productscol {
-    margin-bottom: 8%;    
+    margin-bottom: 8%; 
+    width: 50%;
+    height: 100%;   
 }
 
 .footheader {
-    padding-left: 17%;  
+    padding-left: 5%;  
 }
 
 .inputsuscriptor {
@@ -749,20 +820,29 @@ a{
 .footer {
     height:auto; 
     width: auto;   
-    padding-top: 15%;    
+       
 }
 
 .footercol {
-    margin-top: 7%;
-    margin-right: 40%;
+    margin-top: 3%;
+    margin-right: 31%;
     padding-bottom: 0%; 
-    height: auto;  
+    height: auto;
+    width: 60%;  
 }
 
 .footermenu {    
     padding-left: 0%;
     width: auto;
     height: auto;
+}
+
+.menubox1 {
+    width: 100%;
+}
+
+.menubox2 {
+    width: 100%;
 }
 
 .footermenu2 {
@@ -773,32 +853,30 @@ a{
 
 .fheadercol1 {
     height: auto;
-    width: auto;
+    width: 65%;
+    margin-bottom: 0%;     
 }
 
-.fheadercol2{
-    display:flex;
-    position: absolute;
-    margin-left: 20%;
-    transform: scale(1.2);
-    margin-top: 35%;  
-    width: auto;       
+.fheadercol2{   
+    transform: scale(1.2);    
+    padding-right: 1%;
+    padding-bottom: 5%;
+    padding-top: 0%;
+    margin-right: 50%;
+    width: 60%;
+    height: auto;        
 }
 
-.RS {
-    display: flex;    
-    margin-bottom: 0%;    
-    margin-top: 55%;
-    margin-left: 10%;  
-}
+
 
 .copyright {
     height: auto;
-    width: auto;    
+    width: auto;
 }
 
 .copycol1 {
-    padding-left: 5%;    
+    padding-left: 5%;
+    width: 100%;    
 }
 
 .copycol2 {
