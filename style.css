@@ -10,10 +10,11 @@ a{
 
 .barra {
     background-color: white !important;
+    width: auto;      
 }
 
 .navlist {
-    padding-right: 20%;
+    padding-right: 20%;     
 }
 
 .nav-link{
@@ -37,44 +38,47 @@ a{
 .form {    
     margin-top: 10%;
     margin-right: 1%;
-    margin-left: 33%;    
-    width: 450px;
+    margin-left: 0%;    
+    width: 40%;     
 }
 
 .nameform {
-    margin-left: 33%;
-    width: 450px;
+    margin-left: 17%;
+    width: 65%;
     margin-top: 2%;
     background-color: white;
     border-radius: 5px;
     padding-bottom: 1.5%;
-    box-shadow: 1px 1px 13px grey;
+    box-shadow: 1px 1px 13px grey;     
+    margin-bottom: 5%;
 }
 
 .row1 {    
-    background-image: url(https://i.postimg.cc/fR6qfJWQ/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px.png);
+    background-image: url(https://i.postimg.cc/Vsxc7RDB/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-2048-850.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-left: 35%;
-    height: 550px;    
+    padding-left: 40%;
+    height: auto;        
 }
 
 .formh1 {
     color: white;
     text-transform: uppercase; 
     font-weight: 800;
-    width: 950px;
-    padding-right: 0%;
-    padding-left: 25%;
-    margin-top: 6%;   
+    width: auto;    
+    margin-top: 6%;     
+    text-align: center;
+    text-shadow: 1px 1px 10px black;    
 }
 
 .subheader {
     color: white;
     font-weight: 700;
     font-size: 20px;
-    margin-left: 32%;
-    width: 500px;
+    margin-left: 0%;
+    width: auto;
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
 }
 
 .button {
@@ -89,7 +93,7 @@ a{
     margin-right: 2%;
     text-align: center;
     padding-top: 13px;
-    width: 432px;
+    width: 96%;
 }
 
 .button:hover {
@@ -104,16 +108,18 @@ a{
 .benefits {
     color: white;
     background-color: black;    
-    height: 550px;    
+    height: 90%;
+    width: 100%;    
 }
 
 .benefitscol {
-    box-sizing: border-box;    
-    width: 400px;
-    height: 260px;
+     
+    width: 30%;
+    height: 90%;
     color: white;
     margin-top: 2%;
     margin-left: 1%;
+    margin-bottom: 10%;
     background-color: black;     
 }
 
@@ -127,7 +133,7 @@ a{
     background-color: black;
     font-weight: 700;
     text-align: center;
-    padding-top: 5%;   
+    padding-top: 3%;   
 }
 
 .subheadingbenefits {
@@ -136,54 +142,55 @@ a{
 
 .h4benefits {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 8%;    
 }
 
 .h6benefits {
     text-align: center;
+    font-size: 99%;
 }
 
 .iconbox {    
     margin-top: 20%;
-    margin-left: 0%;   
+    margin-left: 0%; 
+    width: auto;  
 }
 
 .icon {
     color: #E50695;
     transform: scale(5);
-    margin-left: 185px;
+    margin-left: 50%;
 }
 
 .icon2 {
     color: #E50695;
     transform: scale(5);    
-    margin-left: 190px;
+    margin-left: 50%;
 }
 
 .icon3 {
     color: #E50695;
     transform: scale(5);
-    margin-left: 180px;   
+    margin-left: 50%;   
 }
 
 .products {
     color: black;
     background-color: white;
-     height: 550px;
-      
+    height: 100%;      
 }
 
 .productscol{
-    box-sizing: border-box;  
-    width: 220px;
-    height: 220px;
-    margin-top: 4%;
-    margin-left: 1%   
+     
+    width: 18%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 8%;      
 }
 
 .headingproducts {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     font-weight: 700;
 }
 
@@ -199,7 +206,7 @@ a{
 }
 
 .prodsubheading {
-     color: grey;
+    color: grey;
     text-align: center;
     font-size: 14px;
     font-weight: 500;    
@@ -221,78 +228,94 @@ a{
 }
 
 .img-area1{
-    width: 190px;
-    height: 190px;
+    width: 100%;
+    height: 85%;
     background-image: url(https://i.postimg.cc/Vvvp8NWD/5.png);
-    background-size: 100%;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    padding-bottom: 90%;    
 }
 
 .img-area1:hover {
-    width: 190px;
-    height: 190px;
+    width: 100%;
+    height: 85%;
     background-image:  url(https://i.postimg.cc/tTX8BkZ0/4.png);
-    background-size: 100%;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    padding-bottom: 90%;
 }
 
 .img-area2{
-    width: 190px;
-    height: 190px;
+    width: 100%;
+    height: 85%;
     background-image: url(https://i.postimg.cc/SKZHt8WJ/Dise-o-sin-t-tulo-90.png);
-    background-size: 100%;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    padding-bottom: 90%;
 }
 
 .img-area2:hover {
-    width: 190px;
-    height: 190px;
+    width: 100%;
+    height: 85%;
     background-image:  url(https://i.postimg.cc/rs4bmP7r/Dise-o-sin-t-tulo-91.png);
-    background-size: 100%;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    padding-bottom: 90%;
 }
 
 .img-area3{
-    width: 190px;
-    height: 190px;
+    width: 100%;
+    height: 85%;
     background-image: url(https://i.postimg.cc/90zmnCRj/Dise-o-sin-t-tulo-92.png);
-    background-size: 100%;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    padding-bottom: 90%;
 }
 
 .img-area3:hover {
-    width: 190px;
-    height: 190px;
+    width: 100%;
+    height: 85%;
     background-image:  url(https://i.postimg.cc/8knPrJ9k/Dise-o-sin-t-tulo-93.png);
-    background-size: 100%;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    padding-bottom: 90%;
 }
 
-
 .img-area4{
-    width: 190px;
-    height: 190px;
+    width: 100%;
+    height: 85%;
     background-image: url(https://i.postimg.cc/HWfkKtjF/Dise-o-sin-t-tulo-88.png);
     background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 90%;
 }
 
 .img-area4:hover {
-    width: 190px;
-    height: 190px;
+    width: 100%;
+    height: 85%;
     background-image:  url(https://i.postimg.cc/3RYQP7qc/Dise-o-sin-t-tulo-89.png);
     background-size: 100%;
-    
+    background-repeat: no-repeat;
+    padding-bottom: 90%;
 }
 
 .footheader{
     background-color: black;
     color:white;
-    height: 50px;
+    height: 10%;
+    width: AUTO;    
 }
 
 .fheadercol1 {
-    width: 610px;    
+    width: 60%;    
     margin-top: 3%;
     font-size: 13px;
     font-weight: 700;
+    margin-left: 0% ;    
 }
 
 .fheadercol2 {
-    width: 420px;    
+    width: 20%;    
     margin-top: 3%;
 }
 
@@ -311,13 +334,13 @@ a{
 }
 
 .inputsuscriptor {
-        width: 480px;
+        width: 60%;
 }
 
 .RSicons {
     display: flex;
-    float: right;
-    margin-right: 4%;
+    float: left;
+    margin-left: 12%;
     margin-top: 15%;    
 }
 
@@ -332,17 +355,18 @@ a{
 .footer {
     color: white;
     background-color: black;
-    height: 320px;    
+    height: 100%;       
 }
 
 .footercol {
-    width:350px;    
-    margin-top: 8%;    
+    width: 40%;    
+    margin-top: 1%;       
 }
 
 .footericon {
     height: 36px;
-    padding-left: 27%;    
+    padding-left:0%;
+    margin-bottom: 5%;    
 }
 
 .bajadafooter {
@@ -369,12 +393,23 @@ a{
     font-size: 13px;
 }
 
+.menubox1 {
+    width: 50%;
+    display: flex;
+    float: right;
+}
+
+.menubox2 {
+    width: 50%;    
+}
+
 .footermenu {
     font-weight: 700;
     font-size: 13px;
     list-style: none;
     line-height: 25px;
-    padding-left: 20%;
+    padding-left: 45%;    
+    width: 100%;
 }
 
 .footermenu2 {
@@ -382,7 +417,9 @@ a{
     font-size: 13px;
     list-style: none;
     line-height: 25px;
-    padding-left: 50%;    
+    padding-left: 20%;
+    width: 100%;
+    margin-left: 0%;      
 }
 
 .footerlink:hover {
@@ -397,14 +434,21 @@ a{
     color: white;
     background-color: black;
     font-weight: 600;
-    height: 70px;
+    height: 100%;
+    width: 100%;
     font-size: 13px;
-    padding-left:16%;
-        
+    padding-left:0%;
+    padding-top: 2%;
+    padding-bottom: 5%;    
 }
 
+.copycol1{
+    margin-left: 11%;
+    width: 30%;
+}
 .copycol2 {
-    padding-left: 15%;
+    padding-left: 30%;
+    width: auto;
 }
 
 @media screen and (max-width:992px){
@@ -571,13 +615,17 @@ a{
 @media screen and (max-width: 500px) {
 
 .brandlogo {
-    transform: scale(0.75);    
+    transform: scale(0.75);
+    border-style: solid;
+    border-color: blue;    
 }
 
 .row1 {    
     background-image: url(https://i.postimg.cc/7Z0xGH7y/OFERTAS-1080-800-px-2048-500-px-2048-550-px-2048-900-px-2048-750-px-768-650-p.png);
     background-size: 100%;   
-    padding-left: 0%;        
+    padding-left: 0%; 
+    border-style: solid;
+    border-color: blue;          
 }
 
 .formh1 {
@@ -585,7 +633,9 @@ a{
     width: 100%;    
     text-align: center;
     margin-left: 0%;
-    padding-left: 0%;    
+    padding-left: 0%;
+    border-style: solid;
+    border-color: blue;       
 }       
 
 .subheader {
@@ -593,13 +643,17 @@ a{
     width: 100%;    
     margin-left: 0%;
     text-align: center;
+    border-style: solid;
+    border-color: blue;   
 }
 
 .nameform {
     margin-right: 100%;
     margin-left: 0%;
     margin-top: 7%;
-    width: 100%;    
+    width: 100%; 
+    border-style: solid;
+    border-color: blue;      
 }
 
 .button {
