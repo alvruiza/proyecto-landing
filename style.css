@@ -496,22 +496,23 @@ a{
     height: auto;
     width: 100%;
     padding-bottom: 12%;
-    padding-top: 6%;    
+    padding-top: 6%; 
 }
 
 .headingbenefits {
     font-size: 45px;
-    padding-top: 1%;
+    padding-top: 1%;     
 }
 
 .subheadingbenefits {
-    font-size: 20px;
+    font-size: 20px;     
 }
 
 .benefitscol {
     height: auto;
     width: 100%;
-    margin-bottom: 8%;           
+    margin-bottom: 8%;
+    margin-left: 0%;         
 }
 
 .h6benefits {
@@ -762,18 +763,18 @@ a{
 
 .icon {
     margin-left: 48%;
-    transform: scale(6);    
+    transform: scale(5);    
          
 }
 
 .icon2 {
     margin-left: 48%;
-    transform: scale(6);        
+    transform: scale(5);        
 }
 
 .icon3 {
     margin-left: 48%; 
-    transform: scale(6);       
+    transform: scale(5);       
 }
 
 .products {
