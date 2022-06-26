@@ -15,3 +15,7 @@ un copyright y los medios de pago aceptados por la tienda.
 salvo el navbar y los formularios de contacto el sitio fue hecho desde 0 con código propio.
 
 Hice la corrección para que el sitio mejorara su diseño responsive en todos los formatos.
+
+Link actualizado a Netlify
+
+https://melodic-squirrel-8bb6b1.netlify.app/
